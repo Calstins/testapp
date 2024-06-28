@@ -45,7 +45,7 @@ const Navbar = () => {
                 priority
               />
             </div>
-            <div className="hidden md:flex space-x-4 ml-10  font-semibold">
+            <div className="hidden md:flex space-x-4 ml-10 font-semibold">
               {menuItems.map((item) => (
                 <a
                   key={item}
